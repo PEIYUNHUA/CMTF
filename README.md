@@ -2,8 +2,6 @@
 Official code for "Cross-Modal Temporal Fusion for Financial Market Forecasting", accepted by ECAI-PAIS 2025.
 https://arxiv.org/abs/2504.13522
 
-To request data, please contact us at https://www.stratiphy.io/about
-
 Before run transf_main.py
 
 environment settings: 
@@ -43,3 +41,17 @@ hyperparameters including:
         num_epochs
 
 using optuna to search the best combination of the whole stock market
+
+The 8 macro index data are from:
+https://fred.stlouisfed.org/series/GDP
+https://fred.stlouisfed.org/series/CPIAUCSL
+https://uk.investing.com/rates-bonds/u.s.-1-year-bond-yield-historical-data
+https://uk.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data
+https://fred.stlouisfed.org/series/UKNGDP
+https://fred.stlouisfed.org/series/CPALTT01GBM659N
+https://uk.investing.com/rates-bonds/uk-1-year-bond-yield-historical-data
+https://uk.investing.com/rates-bonds/uk-10-year-bond-yield-historical-data
+
+To request other data (historical prices, company news, and financial reports), please contact us at https://www.stratiphy.io/about
+
+
